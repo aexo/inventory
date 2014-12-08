@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/aexo/inventory.svg?label=ready&title=Ready)](http://waffle.io/aexo/inventory)
 Inventory
 =========
 
