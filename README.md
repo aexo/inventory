@@ -1,4 +1,4 @@
-inventory
+Inventory
 =========
 
 Manage docker image registry from web user interface
