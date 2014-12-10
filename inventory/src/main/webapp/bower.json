@@ -1,34 +1,17 @@
 {
   "name": "inventory",
-  "version": "0.0.1",
-  "homepage": "https://github.com/aexo/inventory",
-  "authors": [
-    "Carlos Alberto <carlos.alberto@aexo.com.br>"
-  ],
-  "description": "inventory is a docker image repository manager",
-  "license": "MIT",
-  "private": false,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "components",
-    "test",
-    "tests"
-  ],
+  "version": "0.0.0",
+  "private": true,
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.5.1",
-    "paper-input": "Polymer/paper-input#~0.5.1",
-    "core-field": "Polymer/core-field#~0.5.0",
-    "core-icon": "Polymer/core-icon#~0.5.1",
-    "core-icons": "Polymer/core-icons#~0.5.1",
-    "core-iconset": "Polymer/core-iconset#~0.5.1",
-    "core-iconset-svg": "Polymer/core-iconset-svg#~0.5.1",
-    "core-icon-button": "Polymer/core-icon-button#^0.5.1",
-    "font-roboto": "Polymer/font-roboto#^0.5.0",
-    "core-header-panel": "Polymer/core-header-panel#^0.5.1",
-    "core-toolbar": "Polymer/core-toolbar#^0.5.1",
-    "paper-tabs": "Polymer/paper-tabs#^0.5.1",
-    "core-ajax": "Polymer/core-ajax#^0.5.1"
+    "components-bootstrap": "~3.1.1",
+    "crossroads": "~0.12.0",
+    "hasher": "~1.2.0",
+    "requirejs": "~2.1.11",
+    "requirejs-text": "~2.0.10",
+    "knockout": "~3.3.0-alpha",
+    "knockout-projections": "~1.1.0"
+  },
+  "resolutions": {
+    "knockout": "~3.3.0-alpha"
   }
 }
